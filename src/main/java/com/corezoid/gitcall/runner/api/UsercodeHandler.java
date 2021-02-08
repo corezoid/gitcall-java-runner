@@ -9,7 +9,7 @@ package com.corezoid.gitcall.runner.api;
  * @param <O> The output parameter type
  */
 @FunctionalInterface
-public interface IUsercode<I, O> {
+public interface UsercodeHandler<I, O> {
     /**
      * Handles a Corezoid Gitcall v2 node request
      * @param input The Corezoid Gitcall v2 node input
